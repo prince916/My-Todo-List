@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
 
-const todos = () => {
+function Todos(props) {
   return (
-    <div>todos</div>
+    <div>
+      {props.itemList.map((itemObj) => {
+        return <div>
+          <p>{itemObj.item}</p>
+          <button>x</button>
+        </div>;
+      })}
+    </div>
   )
 }
 
-export default todos
+export default Todos;
