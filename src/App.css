@@ -3,7 +3,7 @@ body{
 }
 
 .Container{
-  background-color:#0248d4;
+  background-color:#1b418c;
   display: flex;
   align-content: center;
   width: 520px;
@@ -14,9 +14,9 @@ body{
   border-radius: 10px;
 }
 
-.Container:hover{
+/* .Container:hover{
   background-color: #165be6;
-}
+} */
 
 .box{
   display: flex;
@@ -26,10 +26,10 @@ body{
 input{
   width: 250px;
   height: 40px;
-  background-color: rgb(245, 239, 239);
+  background-color: rgb(1, 1, 1);
   border: none;
   border-radius: 5px;
-  color: rgb(85, 84, 84);
+  color: rgb(253, 244, 244);
   font-size: 16px;
   font-weight: 600;
   margin-left: 80px;
@@ -47,7 +47,7 @@ button{
   font-family: Courier New;
   color: #ffffff;
   font-size: 28px;
-  background: #34ee17;
+  background: #e2ff03;
   padding: 10px 20px;
   margin:auto;
   text-decoration: none;
