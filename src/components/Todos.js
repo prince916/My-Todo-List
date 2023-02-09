@@ -4,7 +4,7 @@ function Todos(props) {
   return (
     <div>
       {props.itemList.map(itemObj => {
-        return <p>{itemObj, item}</p>
+        return <p>{itemObj} {item}</p>
       })}
       
     </div>
