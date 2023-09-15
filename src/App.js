@@ -25,7 +25,7 @@ function App() {
               type="text"
               value={currentItem}
               onChange={onChangehandler}
-              placeholder="Type here if you want.."
+              placeholder="Type here please..."
             ></input>
             <button onClick={AddElement}>+</button>
           </div>
